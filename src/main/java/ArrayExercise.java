@@ -7,7 +7,9 @@ public class ArrayExercise {
   }
 
   public void incrementArray(int[] input) {
-    // Add code here to increment each element in the array by 1
+    for (int index = 0; index < input.length; index++) {
+      input[index]++;
+    }
   }
 
 }
